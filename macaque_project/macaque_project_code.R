@@ -2,6 +2,11 @@ setwd("C:/Sorrell Cowen")
 Ad_Lib <- read.csv("C:/Sorrell Cowen/Data/AAd_Libs_JC_2019.csv")
 Census <- read.csv("C:/Sorrell Cowen/Data/CCensus_JC_2019.csv")
 HOCensus_CS <- Census[Census$Status==c("IN CS"), c("AnimalID","Age","Sex","Group","Status")]
+zcan <- read.csv("C:/Sorrell Cowen/Data/Single_Zero_Scan_19.csv", header=T, na.strings=c("","NA","No Value"))
+zcanID <- subset(zcan, select = c("DATE","TIME","ID","ACTION","M","F","SAM","JV"))
+library(dplyr)
+
+
 
 firstmerge <- merge(Ad_Lib,HOCensus_CS,by="AnimalID")
 View(firstmerge)
