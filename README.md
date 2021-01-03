@@ -1,5 +1,5 @@
 # university_projects
-A repository of coding and other files I have created during my time of study, associated with different projects I have completed.
+A repository of coding and other files I have used during my time of study, associated with different projects I have completed.
 -----
 The majority of coding for many data activites and projects was carried out using R. 
 -----
