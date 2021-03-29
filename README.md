@@ -1,5 +1,5 @@
 # university_projects
-A repository of coding and other files I have used during my time of study, associated with different projects I have completed.
+A repository of coding and other files I have used during my time of study, associated with different projects I have completed. The final reports can also be found in the corresponding folders.
 -----
 The majority of coding for the modules and projects was carried out using R. 
 -----
